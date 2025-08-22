@@ -46,7 +46,7 @@ router.delete(
   deleteUser
 );
 
-router.put("/update-profile", authMiddleware, updateProfilee);
+router.put("/update-profile", authMiddleware, updateProfile);
 router.post(
   "/employers-update-profile",
   authMiddleware,
